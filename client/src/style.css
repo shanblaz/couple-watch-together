@@ -1,0 +1,67 @@
+body {
+  background: radial-gradient(circle at top, #2a2a72, #000);
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+h1 {
+  margin-top: 10px;
+  font-size: 2rem;
+}
+
+.status {
+  margin-bottom: 20px;
+  color: #bbb;
+  font-size: 1rem;
+}
+
+.player-wrapper {
+  background: #111;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  max-width: 800px;
+  width: 90%;
+}
+
+.video-player {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  background: #ff0077;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff3388;
+}
+
+footer {
+  margin-top: 25px;
+  color: #aaa;
+}
